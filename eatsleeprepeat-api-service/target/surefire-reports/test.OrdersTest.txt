@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: test.OrdersTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.88 s <<< FAILURE! - in test.OrdersTest
+shouldGetOrderById(test.OrdersTest)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.NullPointerException
+	at test.OrdersTest.shouldGetOrderById(OrdersTest.java:34)
+
+shouldDeleteOrder(test.OrdersTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.NullPointerException
+	at test.OrdersTest.shouldDeleteOrder(OrdersTest.java:53)
+

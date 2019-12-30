@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>test-setup-utils</artifactId>
+        <groupId>eatsleeprepeat.testing.utils</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../eatsleeprepeat-testing-utils/test-setup-utils/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>eatsleeprepeat-api-service</artifactId>
+    <groupId>org.example</groupId>
+    <version>1.0-SNAPSHOT</version>
+    <name>EatSleepRepeat Service</name>
+
+    <properties>
+        <test.app.server.host>localhost:</test.app.server.host>
+        <test.app.server.protocol>http</test.app.server.protocol>
+        <test.app.server.port>5000</test.app.server.port>
+        <test.app.server.base.url>/api</test.app.server.base.url>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>eatsleeprepeat.testing.rest</groupId>
+            <artifactId>eatsleeprepeat-testing-rest</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>eatsleeprepeat.testing.utils</groupId>
+            <artifactId>common-dependencies</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>com.eatsleeprepeat.utils</groupId>
+            <artifactId>test-dependencies</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>eatsleeprepeat.testing.utils</groupId>
+            <artifactId>test-commons</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+    </dependencies>
+</project>

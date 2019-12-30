@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/eatsleeprepeat-testing-utils/dependencies-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/eatsleeprepeat-testing-utils/dependencies-utils/common-dependencies/pom.xml" />
+        <option value="$PROJECT_DIR$/eatsleeprepeat-testing-utils/dependencies-utils/test-dependencies/pom.xml" />
+        <option value="$PROJECT_DIR$/eatsleeprepeat-testing-utils/test-setup-utils/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/eatsleeprepeat-testing-utils/test-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/eatsleeprepeat-testing-utils/untitled/pom.xml" />
+        <option value="$PROJECT_DIR$/eatsleeprepeat-testing-utils/untitled3/pom.xml" />
+        <option value="$PROJECT_DIR$/eatsleeprepeat-testing-utils/untitled4/pom.xml" />
+        <option value="$PROJECT_DIR$/test-commons/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
