@@ -1,13 +1,13 @@
 package api;
 
-public class CoreApp extends Api{
+public class CoreApp extends Api {
     public <T extends Api> T initialise(Class<T> clazz) {
         return getApiInstance(clazz);
     }
 
     private CoreApp addHeader(Api api) {
-    api.addHeaders(this.httpRequestHeaders);
-    return this;
+        api.addHeaders(this.httpRequestHeaders);
+        return this;
     }
 
     private CoreApp addConfig(Api api) {

@@ -7,7 +7,7 @@ public class OrderDataProvider {
     @DataProvider(name = "postOrderDataProvider")
     public static Object[][] postObject() {
         final JSONObject postModel = new JSONObject();
-        postModel.put("id","2");
+        postModel.put("id", "2");
         postModel.put("whoOrdered", "Trajko");
         postModel.put("orderDesc", "hamburger i koka kola");
         postModel.put("whereToBuyTheOrder", "sedmica");

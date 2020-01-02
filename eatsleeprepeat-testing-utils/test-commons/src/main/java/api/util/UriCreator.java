@@ -4,9 +4,7 @@ import org.apache.commons.configuration.CompositeConfiguration;
 import org.apache.commons.configuration.PropertiesConfiguration;
 import org.apache.commons.configuration.SystemConfiguration;
 import org.apache.http.client.utils.URIBuilder;
-
 import java.net.URI;
-
 
 public class UriCreator {
 

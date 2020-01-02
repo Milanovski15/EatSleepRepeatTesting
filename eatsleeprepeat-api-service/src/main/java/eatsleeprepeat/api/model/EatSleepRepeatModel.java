@@ -3,9 +3,6 @@ package eatsleeprepeat.api.model;
 public class EatSleepRepeatModel {
     private String id, whoOrdered, orderDesc, whereToBuyTheOrder;
 
-    public EatSleepRepeatModel(){
-    };
-
     public EatSleepRepeatModel(String id, String whoOrdered, String orderDesc, String whereToBuyTheOrder) {
         super();
         this.id = id;

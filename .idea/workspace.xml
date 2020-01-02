@@ -7,12 +7,13 @@
     <list default="true" id="b30dd566-f39e-4e9b-8ee0-ad66aeed70ef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eatsleeprepeat-api-service/src/main/java/eatsleeprepeat/api/ApiDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatsleeprepeat-api-service/src/main/java/eatsleeprepeat/api/ApiDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eatsleeprepeat-api-service/src/main/java/eatsleeprepeat/api/model/EatSleepRepeatModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatsleeprepeat-api-service/src/main/java/eatsleeprepeat/api/model/EatSleepRepeatModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eatsleeprepeat-api-service/src/main/java/eatsleeprepeat/api/rest/EatSleepRepeatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatsleeprepeat-api-service/src/main/java/eatsleeprepeat/api/rest/EatSleepRepeatService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eatsleeprepeat-api-service/src/test/java/data/OrderDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatsleeprepeat-api-service/src/test/java/data/OrderDataProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eatsleeprepeat-api-service/src/test/java/test/OrdersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatsleeprepeat-api-service/src/test/java/test/OrdersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eatsleeprepeat-api-service/target/test-classes/test/OrdersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/eatsleeprepeat-api-service/target/test-classes/test/OrdersTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eatsleeprepeat-testing-utils/test-commons/src/main/java/api/Api.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatsleeprepeat-testing-utils/test-commons/src/main/java/api/Api.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eatsleeprepeat-testing-utils/test-commons/src/main/java/api/CoreApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatsleeprepeat-testing-utils/test-commons/src/main/java/api/CoreApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatsleeprepeat-testing-utils/test-commons/src/main/java/api/util/CommonConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatsleeprepeat-testing-utils/test-commons/src/main/java/api/util/CommonConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatsleeprepeat-testing-utils/test-commons/src/main/java/api/util/CommonHelpers.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/eatsleeprepeat-testing-utils/test-commons/src/main/java/api/util/UriCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatsleeprepeat-testing-utils/test-commons/src/main/java/api/util/UriCreator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +89,7 @@
       <recent name="C:\myProject\EatSleepRepeatFinal\eatsleeprepeat-testing-utils" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.OrdersTest.shouldPostOrder">
+  <component name="RunManager" selected="TestNG.OrdersTest.shouldGetAllOrders">
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
@@ -131,7 +132,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrdersTest.shouldGetOrderById" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="OrdersTest.shouldGetAllOrders" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="eatsleeprepeat-api-service" />
       <extension name="coverage">
         <pattern>
@@ -141,7 +142,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.OrdersTest" />
-      <option name="METHOD_NAME" value="shouldGetOrderById" />
+      <option name="METHOD_NAME" value="shouldGetAllOrders" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -187,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.OrdersTest.shouldGetAllOrders" />
         <item itemvalue="TestNG.OrdersTest.shouldPostOrder" />
         <item itemvalue="TestNG.OrdersTest" />
         <item itemvalue="TestNG.OrdersTest.shouldUpdateOrder" />
         <item itemvalue="TestNG.OrdersTest.shouldDeleteOrder" />
-        <item itemvalue="TestNG.OrdersTest.shouldGetOrderById" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +228,7 @@
       <workItem from="1577441081453" duration="10594000" />
       <workItem from="1577693326269" duration="1875000" />
       <workItem from="1577695227147" duration="12558000" />
-      <workItem from="1577948815292" duration="6828000" />
+      <workItem from="1577948815292" duration="11524000" />
     </task>
     <servers />
   </component>
@@ -268,26 +269,26 @@
       <screen x="-1920" y="-376" width="1536" height="864" />
     </state>
     <state x="-1371" y="-190" key="FileChooserDialogImpl/0.0.1536.824/-1920.-376.1536.864@-1920.-376.1536.864" timestamp="1577950162745" />
-    <state width="1493" height="205" key="GridCell.Tab.0.bottom" timestamp="1577952289790">
+    <state width="745" height="191" key="GridCell.Tab.0.bottom" timestamp="1577970462532">
       <screen x="-1920" y="-376" width="1536" height="864" />
     </state>
     <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.-162.1920.1080@-1920.-162.1920.1080" timestamp="1577720817202" />
-    <state width="1493" height="205" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.-376.1536.864@-1920.-376.1536.864" timestamp="1577952289790" />
-    <state width="1493" height="205" key="GridCell.Tab.0.center" timestamp="1577952289790">
+    <state width="745" height="191" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.-376.1536.864@-1920.-376.1536.864" timestamp="1577970462532" />
+    <state width="745" height="191" key="GridCell.Tab.0.center" timestamp="1577970462532">
       <screen x="-1920" y="-376" width="1536" height="864" />
     </state>
     <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1536.824/-1920.-162.1920.1080@-1920.-162.1920.1080" timestamp="1577720817202" />
-    <state width="1493" height="205" key="GridCell.Tab.0.center/0.0.1536.824/-1920.-376.1536.864@-1920.-376.1536.864" timestamp="1577952289790" />
-    <state width="1493" height="205" key="GridCell.Tab.0.left" timestamp="1577952289790">
+    <state width="745" height="191" key="GridCell.Tab.0.center/0.0.1536.824/-1920.-376.1536.864@-1920.-376.1536.864" timestamp="1577970462532" />
+    <state width="745" height="191" key="GridCell.Tab.0.left" timestamp="1577970462531">
       <screen x="-1920" y="-376" width="1536" height="864" />
     </state>
     <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1536.824/-1920.-162.1920.1080@-1920.-162.1920.1080" timestamp="1577720817202" />
-    <state width="1493" height="205" key="GridCell.Tab.0.left/0.0.1536.824/-1920.-376.1536.864@-1920.-376.1536.864" timestamp="1577952289790" />
-    <state width="1493" height="205" key="GridCell.Tab.0.right" timestamp="1577952289790">
+    <state width="745" height="191" key="GridCell.Tab.0.left/0.0.1536.824/-1920.-376.1536.864@-1920.-376.1536.864" timestamp="1577970462531" />
+    <state width="745" height="191" key="GridCell.Tab.0.right" timestamp="1577970462532">
       <screen x="-1920" y="-376" width="1536" height="864" />
     </state>
     <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1536.824/-1920.-162.1920.1080@-1920.-162.1920.1080" timestamp="1577720817202" />
-    <state width="1493" height="205" key="GridCell.Tab.0.right/0.0.1536.824/-1920.-376.1536.864@-1920.-376.1536.864" timestamp="1577952289790" />
+    <state width="745" height="191" key="GridCell.Tab.0.right/0.0.1536.824/-1920.-376.1536.864@-1920.-376.1536.864" timestamp="1577970462532" />
     <state width="1877" height="280" key="GridCell.Tab.1.bottom" timestamp="1577720817202">
       <screen x="-1920" y="-162" width="1920" height="1080" />
     </state>

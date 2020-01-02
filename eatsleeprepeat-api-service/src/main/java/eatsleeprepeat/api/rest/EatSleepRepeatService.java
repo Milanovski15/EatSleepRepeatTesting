@@ -29,7 +29,7 @@ public class EatSleepRepeatService extends ApiDefinition {
             response = restTemplate.exchange(getBaseURI() + getPort() + URI_FOR_GETANDPOST, HttpMethod.GET, httpEntity, EatSleepRepeatReturnTypeModel[].class);
             return response;
         } catch (HttpClientErrorException e) {
-             log.info(e.getMessage());
+            log.info(e.getMessage());
         } catch (Exception e) {
             log.info("Unhandled Exception! ");
         }
@@ -68,7 +68,7 @@ public class EatSleepRepeatService extends ApiDefinition {
         HttpEntity<?> httpEntity = prepareHttpEntity(object);
         ResponseEntity<EatSleepRepeatReturnTypeModel> firstReturnTypeModelResponseEntity;
         try {
-            firstReturnTypeModelResponseEntity = restTemplate.exchange(getBaseURI() + getPort() +  URI_FOR_GETBYIDPUTDELETE, HttpMethod.PUT, httpEntity, EatSleepRepeatReturnTypeModel.class, id);
+            firstReturnTypeModelResponseEntity = restTemplate.exchange(getBaseURI() + getPort() + URI_FOR_GETBYIDPUTDELETE, HttpMethod.PUT, httpEntity, EatSleepRepeatReturnTypeModel.class, id);
             return firstReturnTypeModelResponseEntity;
         } catch (HttpClientErrorException e) {
             log.error(e.getMessage());
