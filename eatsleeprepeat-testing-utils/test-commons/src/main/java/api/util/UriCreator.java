@@ -6,10 +6,7 @@ import org.apache.commons.configuration.SystemConfiguration;
 import org.apache.http.client.utils.URIBuilder;
 
 import java.net.URI;
-import java.net.URISyntaxException;
 
-
-import javax.naming.ConfigurationException;
 
 public class UriCreator {
 

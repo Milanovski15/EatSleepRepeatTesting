@@ -14,16 +14,5 @@ public class OrderDataProvider {
         final Object[][] returnObject = new Object[][]{{postModel}};
         return returnObject;
     }
-
-    @DataProvider(name = "updateOrderDataProvider")
-    public static Object[][] updateObject() {
-        final JSONObject postModel = new JSONObject();
-        postModel.put("id","2");
-        postModel.put("whoOrdered", "Trajko");
-        postModel.put("orderDesc", "leskovacka i fanta");
-        postModel.put("whereToBuyTheOrder", "vili");
-        final Object[][] returnObject = new Object[][]{{postModel}};
-        return returnObject;
-    }
 }
 

@@ -5,9 +5,6 @@ public class CoreApp extends Api{
         return getApiInstance(clazz);
     }
 
-//    private void addCookies(Api api) {
-//    }
-
     private CoreApp addHeader(Api api) {
     api.addHeaders(this.httpRequestHeaders);
     return this;
@@ -20,13 +17,12 @@ public class CoreApp extends Api{
         return this;
     }
 
-    private <T extends Api> T getApiInstance(Class<T> clazz) {
+    private <T extends Api> T getApiInstance(Class<T> apiClass) {
         try {
-            Api api = clazz.newInstance();
-            //addCookies(api);
+            Api api = apiClass.newInstance();
             addConfig(api);
             addHeader(api);
-            return clazz.cast(api);
+            return apiClass.cast(api);
         } catch (Exception e) {
             throw new RuntimeException("Can't create api class");
         }

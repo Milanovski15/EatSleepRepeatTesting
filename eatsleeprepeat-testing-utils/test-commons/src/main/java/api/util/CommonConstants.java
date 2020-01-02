@@ -11,5 +11,4 @@ public class CommonConstants {
     public static final String APP_SERVER_PORT_PROPERTY_NAME = "app.server.port";
     public static final String APP_SERVER_BASE_URL_PROPERTY_NAME = "app.server.base.url";
     public static final String DEFAULT_LOCAL_URL = "http://localhost:8080";
-    // public static final String BEARER = "Bearer ";
 }
